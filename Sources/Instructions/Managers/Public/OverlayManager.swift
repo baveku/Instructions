@@ -186,19 +186,6 @@ public class OverlayManager {
             return translucentOverlayStyleManager
         }
     }
-
-    // MARK: Renamed Public Properties
-    @available(*, unavailable, renamed: "backgroundColor")
-    public var color: UIColor = InstructionsColor.overlay
-
-    @available(*, unavailable, renamed: "isUserInteractionEnabled")
-    public var allowTap: Bool = true
-
-    @available(*, unavailable, renamed: "isUserInteractionEnabledInsideCutoutPath")
-    public var allowTouchInsideCutoutPath: Bool = false
-
-    @available(*, unavailable, renamed: "areTouchEventsForwarded")
-    public var forwardTouchEvents: Bool = false
 }
 
 // swiftlint:disable class_delegate_protocol

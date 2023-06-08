@@ -291,13 +291,6 @@ public class FlowManager {
 
         showPreviousCoachMark(hidePrevious: true)
     }
-
-    // MARK: Renamed Public Properties
-    @available(*, unavailable, renamed: "isStarted")
-    public var started: Bool = false
-
-    @available(*, unavailable, renamed: "isPaused")
-    public var paused: Bool = false
 }
 
 extension FlowManager: CoachMarksViewControllerDelegate {
